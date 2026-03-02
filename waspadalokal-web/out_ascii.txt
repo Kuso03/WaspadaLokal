@@ -1,0 +1,62 @@
+php : PHP Fatal error:  
+Uncaught 
+BadMethodCallException: 
+Method Illuminate\Http\Requ
+est::validate does not 
+exist. in 
+C:\laragon\www\IDCamp 2025 
+Developer Challenge Small 
+Apps for Big Preparedness\w
+aspadalokal-web\vendor\lara
+vel\framework\src\Illuminat
+e\Macroable\Traits\Macroabl
+e.php:115
+At line:1 char:1
++ php test_prediksi.php 
+2>&1 | Out-String | 
+Set-Content -Encoding 
+ASCII ...
++ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo         
+     : NotSpecified: (PHP  
+   Fatal error...croable   
+ .php:115:String) [], R    
+emoteException
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 
+Stack trace:
+#0 C:\laragon\www\IDCamp 
+2025 Developer Challenge 
+Small Apps for Big Prepared
+ness\waspadalokal-web\app\H
+ttp\Controllers\MapControll
+er.php(19): Illuminate\Http
+\Request->__call('validate'
+, Array)
+#1 C:\laragon\www\IDCamp 
+2025 Developer Challenge 
+Small Apps for Big Prepared
+ness\waspadalokal-web\test_
+prediksi.php(12): App\Http\
+Controllers\MapController->
+prediksiKota(Object(Illumin
+ate\Http\Request))
+#2 {main}
+  thrown in 
+C:\laragon\www\IDCamp 2025 
+Developer Challenge Small 
+Apps for Big Preparedness\w
+aspadalokal-web\vendor\lara
+vel\framework\src\Illuminat
+e\Macroable\Traits\Macroabl
+e.php on line 115
+
+Fatal error: Uncaught BadMethodCallException: Method Illuminate\Http\Request::validate does not exist. in C:\laragon\www\IDCamp 2025 Developer Challenge Small Apps for Big Preparedness\waspadalokal-web\vendor\laravel\framework\src\Illuminate\Macroable\Traits\Macroable.php:115
+Stack trace:
+#0 C:\laragon\www\IDCamp 2025 Developer Challenge Small Apps for Big Preparedness\waspadalokal-web\app\Http\Controllers\MapController.php(19): Illuminate\Http\Request->__call('validate', Array)
+#1 C:\laragon\www\IDCamp 2025 Developer Challenge Small Apps for Big Preparedness\waspadalokal-web\test_prediksi.php(12): App\Http\Controllers\MapController->prediksiKota(Object(Illuminate\Http\Request))
+#2 {main}
+  thrown in C:\laragon\www\IDCamp 2025 Developer Challenge Small Apps for Big Preparedness\waspadalokal-web\vendor\laravel\framework\src\Illuminate\Macroable\Traits\Macroable.php on line 115
+

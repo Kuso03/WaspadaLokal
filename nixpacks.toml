@@ -1,0 +1,12 @@
+[phases.setup]
+nixPkgs = ["php82", "php82Packages.composer", "python311", "nodejs"]
+
+[phases.install]
+cmds = [
+  "cd waspadaloka... && composer install",
+  "cd AI_API && pip install -r requirements.txt",
+  "cd waspadaloka... && npm install"
+]
+
+[phases.build]
+cmds = ["cd waspadaloka... && npm run build"]

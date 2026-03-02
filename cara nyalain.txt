@@ -1,0 +1,7 @@
+CD AI_API
+uvicorn main:app --reload
+
+cd waspadalokal-web
+php artisan serve --port=8001
+
+ngrok.exe http 8001
