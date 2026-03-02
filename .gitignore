@@ -1,0 +1,20 @@
+# Folder library (Ukurannya gede, jangan di-upload!)
+/waspadalokal-web/vendor/
+/waspadalokal-web/node_modules/
+/AI_API/venv/
+/AI_API/__pycache__/
+
+# File Rahasia (Paling Penting!)
+.env
+/waspadalokal-web/.env
+/AI_API/.env
+.env.local
+
+# File hasil build Laravel & Node
+/waspadalokal-web/public/storage
+/waspadalokal-web/storage/*.key
+/waspadalokal-web/public/build
+
+# File sampah sistem (Windows/Mac)
+Thumbs.db
+.DS_Store

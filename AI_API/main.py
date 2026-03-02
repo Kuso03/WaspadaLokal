@@ -1,3 +1,8 @@
+"""
+Part of the IDCamp 2025 Challenge
+Licensed under the MIT License
+"""
+
 from fastapi import FastAPI
 from pydantic import BaseModel
 import tensorflow as tf

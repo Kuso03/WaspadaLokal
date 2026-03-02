@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * Part of the IDCamp 2025 Challenge
+ * Licensed under the MIT License
+ */
+
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
