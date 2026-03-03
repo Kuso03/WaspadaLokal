@@ -1087,7 +1087,9 @@
                             position: 'right',
                             ticks: { color: '#818cf8', font: { size: 10 } },
                             grid: { drawOnChartArea: false },
-                            title: { display: true, text: 'Hujan', color: '#818cf8', font: { size: 10 } }
+                            title: { display: true, text: 'Hujan', color: '#818cf8', font: { size: 10 } },
+                            min: 0,
+                            suggestedMax: Math.max(...rainData) > 0 ? (Math.max(...rainData) < 2 ? 3 : Math.max(...rainData) * 1.5) : 10
                         }
                     }
                 }

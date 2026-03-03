@@ -431,8 +431,7 @@
                 class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col md:flex-row items-center justify-between text-slate-500 text-sm">
                 <p>&copy; 2026 WaspadaLokal. Panduan Keselamatan Bencana.</p>
                 <div class="flex items-center gap-4 mt-4 md:mt-0">
-                    <a href="#" class="hover:text-white transition">Privacy</a>
-                    <a href="#" class="hover:text-white transition">Terms</a>
+                    <a href="/legal" class="hover:text-white transition">Privacy & Terms</a>
                 </div>
             </div>
         </footer>

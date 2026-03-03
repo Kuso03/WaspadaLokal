@@ -501,7 +501,7 @@
                                 ticks: { color: textColor, font: { family: 'Inter' } },
                                 min: 0,
                                 // Berikan sedikit ruang lebih agar batang hujan tidak "mentok" ke atas jika nilainya kecil
-                                suggestedMax: Math.max(...recentRains) > 0 ? Math.max(...recentRains) * 1.5 : 10
+                                suggestedMax: Math.max(...recentRains) > 0 ? (Math.max(...recentRains) < 2 ? 3 : Math.max(...recentRains) * 1.5) : 10
                             }
                         }
                     }

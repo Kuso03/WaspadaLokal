@@ -1,7 +1,25 @@
-CD AI_API
-uvicorn main:app --reload
+Panduan Menjalankan WaspadaLokal (Lokal & Public)
+1. Menjalankan AI API (Python)
+Masuk ke folder /AI_API. (CD AI_API)
 
-cd waspadalokal-web
-php artisan serve --port=8001
+Jalankan: uvicorn main:app --reload.
 
-ngrok.exe http 8001
+Pastikan berjalan di http://127.0.0.1:8000.
+
+2. Menjalankan Web (Laravel)
+Masuk ke folder /waspadalokal-web. (cd waspadalokal-web)
+
+Pastikan file .env sudah terkonfigurasi: AI_API_URL=http://127.0.0.1:8000.
+
+Jalankan: php artisan serve --port=8001.
+
+Aplikasi dapat diakses di browser melalui: http://127.0.0.1:8001.
+
+3. Cara Menggunakan Ngrok (Opsional - Untuk Akses Publik/HP)
+Buka terminal baru, lalu jalankan: ngrok http 8001.
+
+Salin link https://...ngrok-free.app yang muncul di terminal Ngrok.
+
+Penting: Update nilai APP_URL di file .env Laravel dengan link Ngrok tersebut agar aset (CSS/JS) dan gambar muncul dengan benar.
+
+Catatan: Pastikan AI API dijalankan terlebih dahulu sebelum mengakses fitur deteksi di Web agar proses sinkronisasi data tidak error.

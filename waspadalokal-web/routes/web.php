@@ -22,3 +22,7 @@ Route::get('/pusat-peringatan', [BmkgController::class, 'index']);
 Route::get('/panduan', function () {
     return view('panduan');
 });
+
+Route::get('/legal', function () {
+    return view('legal');
+});

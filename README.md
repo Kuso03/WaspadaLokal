@@ -1,5 +1,8 @@
 # 🌍 WaspadaLokal
 
+## 📺 Video Demo Aplikasi
+[![WaspadaLokal Demo](https://img.shields.io/badge/Google%20Drive-Watch%20Demo-blue?style=for-the-badge&logo=googledrive)](https://drive.google.com/file/d/1fjsHZowOnAmU-eP6VHkyoUMOvyPR_4He/view?usp=sharing)
+
 > **"Small Apps for Big Preparedness: Solusi Digital Berbasis AI untuk Kesiapsiagaan Bencana"**
 
 WaspadaLokal adalah aplikasi web kesiapsiagaan bencana real-time yang cerdas. Dengan menggabungkan kekuatan teknologi web modern dan *Deep Learning*, aplikasi ini memberikan penilaian risiko lokal dan informasi penyelamatan jiwa langsung ke layar Anda. Proyek ini berdiri sebagai solusi digital yang inovatif dan sadar konteks, menjembatani AI tingkat lanjut dengan ketahanan masyarakat.
