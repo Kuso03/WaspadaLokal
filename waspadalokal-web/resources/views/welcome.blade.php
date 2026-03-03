@@ -12,6 +12,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('apple-touch-icon.png?v=2026') }}">
     <link rel="manifest" href="{{ asset('site.webmanifest?v=2026') }}">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="dicoding:email" content="dhafidwahyukusumo@gmail.com">
 
     <!-- Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
